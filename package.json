@@ -1,17 +1,23 @@
 {
-  "name": "pixel-parfect-portfolio",
+  "name": "portfolio-template",
   "version": "1.0.0",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "npx @tailwindcss/cli -i ./assets/css/input.css -o ./assets/css/output.css --watch"
+    "dev" : "npx @tailwindcss/cli -i ./assets/css/input.css -o ./assets/css/output.css --watch"
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kasem32833/portfolio-template.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "",
-  "dependencies": {
-    "@tailwindcss/cli": "^4.1.10",
-    "tailwindcss": "^4.1.10"
-  }
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/kasem32833/portfolio-template/issues"
+  },
+  "homepage": "https://github.com/kasem32833/portfolio-template#readme"
 }
